@@ -1,0 +1,8 @@
+#memberikan status atau informasi terkini mengenai posisi, kecepatan, dan percepatan dari semua sendi pada lengan robot
+
+seven_dof_arm:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+  
